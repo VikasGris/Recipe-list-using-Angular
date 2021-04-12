@@ -15,8 +15,8 @@ export class AppComponent {
     this.loadedFeature = feature
   }
 
-  onLoadShoppingList() {
-    this.route.navigate(['/shoppingList'], { queryParams: { allowEdit: '1' }, fragment: 'loading' });
+  // onLoadShoppingList() {
+  //   this.route.navigate(['/shoppingList'], { queryParams: { allowEdit: '1' }, fragment: 'loading' });
     
-  }
+  // }
 }
